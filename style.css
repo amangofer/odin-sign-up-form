@@ -142,13 +142,20 @@ form > div {
 }
 
 .form-control small {
-    color: red;
     padding-left: 10px;
     visibility: hidden;
 }
 
-.form-control small.error {
-    color: red;
+.form-control.error small {
+    color: #e74c3c;
     padding-left: 10px;
     visibility: visible;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
 }
