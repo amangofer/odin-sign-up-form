@@ -55,3 +55,100 @@ body {
     position: relative;
     top: 15px;
 }
+
+.right-side {
+    background-color: #f2f9fe;
+    width: 65vw;
+    /* padding-left: 50px; */
+}
+
+.description,
+form > div {
+    padding-left: 50px;
+}
+
+.description {
+    font-size: 1.5rem;
+    font-weight: 600;
+    width: 65%;
+    margin-top: 150px;
+}
+
+.description P:last-child {
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+
+form > div {
+    background-color: white;
+    padding: 20px 0 20px 50px;
+}
+.form-inputs {
+    display: flex;
+    gap: 100px;
+}
+
+.form-control {
+    padding: 10px 0;
+
+}
+.form-control label {
+    display: block;
+    font-size: .85rem;
+    color: #474849;
+
+}
+.form-control input {
+    display: block;
+    width: 300px;
+    height: 35px;
+    border: 1px solid #bec8cf;
+    border-radius: 4px;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+.form-action {
+    background-color: #f2f9fe;
+}
+
+.form-action button {
+    background-color: rgb(89, 108, 72);
+    border: none;
+    border-radius: 7px;
+    padding: 15px 35px;
+    font-size: 1.12rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.form-action button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form-action p {
+    font-size: 1.25rem;
+    padding-top: 10px;
+}
+
+.form-action p a{
+    color: rgb(89, 108, 72);
+    font-weight: bold;
+    text-decoration: none;
+}
+.form-action p a:hover{
+    text-decoration: underline;
+}
+
+.form-control small {
+    color: red;
+    padding-left: 10px;
+    visibility: hidden;
+}
+
+.form-control small.error {
+    color: red;
+    padding-left: 10px;
+    visibility: visible;
+}
